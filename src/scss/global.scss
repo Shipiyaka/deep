@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 20px;
+  min-width: 320px;
+  margin: 0;
+  font-family: $font-family;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-anchor: none;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link-reset {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.btn-reset {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-family: "Overpass";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 71px;
+}
+
+.subtitle {
+  line-height: 32px;
+}
+
+.uptitle {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #100c46;
+  padding: 19px 46px;
+  background-color: #fff;
+}
