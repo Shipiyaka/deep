@@ -1,0 +1,39 @@
+.services {
+  &__container {
+  }
+
+  &__banner {
+  }
+
+  &__uptitle {
+    font-size: 16px;
+    line-height: 22px;
+    color: #6257fe;
+  }
+
+  &__title {
+    font-size: 56px;
+    line-height: 71px;
+    color: #100c46;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__item {
+  }
+
+  &__icon {
+  }
+
+  &__subtitle {
+  }
+
+  &__descr {
+  }
+
+  &__img {
+  }
+}

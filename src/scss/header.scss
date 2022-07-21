@@ -1,0 +1,27 @@
+.header {
+  position: relative;
+  z-index: 10;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 64px;
+    padding-right: 0;
+  }
+}
+.logo {
+  &__img {
+  }
+}
+.socials {
+  padding: 22px;
+  background-color: #6257fe;
+  display: flex;
+  align-items: center;
+  &__link {
+    line-height: 1;
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+}

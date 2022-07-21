@@ -1,0 +1,38 @@
+.about {
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  &__banner {
+    background-color: #100c46;
+    margin-left: -15px;
+    padding: 225px 135px 225px 85px;
+  }
+
+  &__uptitle {
+    margin-bottom: 7px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6257fe;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+    color: #6257fe;
+  }
+
+  &__subtitle {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  &__img {
+    position: relative;
+    left: -100px;
+    filter: drop-shadow(0px 10px 50px rgba(16, 12, 70, 0.2));
+  }
+}
