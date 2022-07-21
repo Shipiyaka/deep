@@ -1,0 +1,60 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 300px));
+  justify-content: space-between;
+  row-gap: 23px;
+
+  &__job {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__img {
+  }
+
+  &__sign {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(98, 87, 254, 0.8);
+    padding: 12px 18px;
+    width: 100%;
+  }
+
+  &__author {
+    text-align: left;
+    margin-right: 19px;
+  }
+
+  &__name {
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    &:not(:last-child) {
+      margin-right: 13px;
+    }
+  }
+
+  &__icon {
+  }
+}
