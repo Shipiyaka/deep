@@ -51,6 +51,13 @@ body {
   cursor: pointer;
 }
 
+.input-reset,
+.textarea-reset {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -74,6 +81,7 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
+  font-weight: 400;
 }
 
 .btn {
