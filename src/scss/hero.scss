@@ -2,10 +2,11 @@
   background-color: #6257fe;
   position: relative;
   z-index: 5;
-  top: -66px;
-  margin-bottom: -66px;
+  top: -68px;
+  margin-bottom: -68px;
   &__banner {
-    padding: 245px 0;
+    padding-top: 245px;
+    min-width: 383px;
   }
 
   &__container {
@@ -26,14 +27,16 @@
     max-width: 376px;
   }
 
-  &__img {
-    position: relative;
-    right: -15px;
-    max-height: 845px;
+  &__item {
+    height: 845px;
+    width: calc(100% - 400px);
+    margin-right: -15px;
+    display: inline-block;
+    background-image: url("@img/hero/hero-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -15px;
+    margin-right: -15px;
   }
 }
-
-// .btn {
-//   &__text {
-//   }
-// }
